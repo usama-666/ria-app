@@ -41,7 +41,7 @@ const Scanning = () => {
 
     // Function to navigate back
     const handleBackPress = () => {
-        navigation.goBack(); // Navigate back to the previous screen
+        navigation.replace("index"); // Use goBack instead of replace
     };
 
     // Start the animation when the component mounts

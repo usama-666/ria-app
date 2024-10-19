@@ -38,7 +38,7 @@ const Scanned = () => {
 
     // Function to navigate back
     const handleBackPress = () => {
-        navigation.goBack(); // Navigate back to the previous screen
+        navigation.replace("index"); // Use goBack instead of replace
     };
     return (
         <LinearGradient
